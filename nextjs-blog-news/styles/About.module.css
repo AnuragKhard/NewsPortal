@@ -127,7 +127,6 @@
 
 .articles li {
   margin: 1rem;
-  flex-basis: calc(29% - 2rem);
   background-color: white;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -177,5 +176,11 @@
   margin-right: 0;
   margin-bottom: 20px;
   }
+  }
+
+  @media (min-width: 600px) {
+    .articles li {
+      flex-basis: calc(29% - 2rem);
+    }
   }
   
